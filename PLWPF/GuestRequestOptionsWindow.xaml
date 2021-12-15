@@ -1,0 +1,118 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE" x:Class="PLWPF.GuestRequestOptionsWindow"
+        mc:Ignorable="d"
+        Title="GuestRequestOptionsWindow" Height="700" Width="800" Icon="images/בית.ico">
+    <Window.Resources>
+        <Style TargetType="{x:Type TextBlock}" x:Key="TextBlockStyle">
+            <Setter Property="Height"
+                    Value="29"/>
+            <Setter Property="Width"
+                    Value="179"/>
+            <Setter Property="FontFamily"
+                    Value="Yu Gothic UI Semibold"/>
+            <Setter Property="FontSize"
+                    Value="20"/>
+            <Setter Property="HorizontalAlignment"
+                    Value="Stretch"/>
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch"/>
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Height"
+                    Value="29"/>
+            <Setter Property="Width"
+                    Value="178"/>
+            <Setter Property="Text"
+                    Value=""/>
+            <Setter Property="FontFamily"
+                    Value="Yu Gothic UI Semibold"/>
+            <Setter Property="FontSize"
+                    Value="20"/>
+            <Setter Property="HorizontalAlignment"
+                    Value="Stretch"/>
+            <Setter Property="VerticalAlignment"
+                    Value="Stretch"/>
+        </Style>
+        <CollectionViewSource x:Key="guestRequestViewSource" d:DesignSource="{d:DesignInstance {x:Type BE:GuestRequest}, CreateList=True}"/>
+    </Window.Resources>
+
+
+
+
+    <Grid Background="#FFE0F7FC">
+        <TextBlock HorizontalAlignment="Left" Margin="254,10,0,0" TextWrapping="Wrap" Text="create a new guest request" VerticalAlignment="Top" Width="295" Height="32" FontFamily="Yu Gothic UI Semibold" FontSize="22"/>
+        <Grid Height="629" Margin="0,42,0,-0.333" Width="793" Grid.RowSpan="4" Grid.ColumnSpan="13">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <TextBlock Style="{StaticResource TextBlockStyle}" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Last name:" VerticalAlignment="Top" Height="29" Width="179" FontFamily="Yu Gothic UI Semibold" FontSize="20"/>
+            <TextBox x:Name="TBlastName" HorizontalAlignment="Left" Height="29" Margin="10.333,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178" FontSize="20" FontFamily="Yu Gothic UI Semibold" Grid.Column="1" TextChanged="TBlastName_TextChanged"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="9.667,10,10.333,9.667" TextWrapping="Wrap" Height="29" Width="178" FontSize="20" FontFamily="Yu Gothic UI Semibold" Grid.Column="2"><Run Text="First name:"/></TextBlock>
+            <TextBox x:Name="TBfirstName" Height="29" Margin="134.667,0,83.333,23" TextWrapping="Wrap" Width="178" FontSize="20" FontFamily="Yu Gothic UI Semibold" Grid.Column="2" Grid.ColumnSpan="2" TextChanged="TBfirstName_TextChanged"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,11.333,9.667,9.667" Grid.Row="1" TextWrapping="Wrap" Text="Email address:" Height="27"/>
+            <TextBox x:Name="TBemailAddress" Grid.Column="1" Height="28" Margin="10.333,0,196.333,24.667" Grid.Row="1" TextWrapping="Wrap" Width="Auto" Grid.ColumnSpan="3" TextChanged="TBemailAddress_TextChanged"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,9.667,9.667,10" Grid.Row="2" TextWrapping="Wrap" Text="Entry date:"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,9,9.667,10" Grid.Row="3" TextWrapping="Wrap" Text="Release Date:"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="3,3,3,3" Grid.Row="4" TextWrapping="Wrap" Text="Area:"/>
+            <ComboBox x:Name="AreaCB" Grid.Column="1" HorizontalAlignment="Left" Margin="10.333,10.333,0,0" Grid.Row="4" VerticalAlignment="Top" Width="178" Height="32" Background="#FFEED5F8" BorderBrush="#FFE5CEF2" OpacityMask="#FFEFE1FB" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" x:Name="TypeCb"   Margin="10,9.667,9.667,10" Grid.Row="5" TextWrapping="Wrap" Text="Type of hosting:"/>
+            <ComboBox x:Name="ComboBoxType" Grid.Column="1" Margin="10.333,9.667,10.333,10" Grid.Row="5" Width="178" Height="29" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,10,9.667,9" Grid.Row="6" TextWrapping="Wrap" Text="Number of adults:"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,10,9.667,9.667" Grid.Row="7" TextWrapping="Wrap" Text="Number of children:" FontSize="18"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,9.667,9.667,9.333" Grid.Row="8" TextWrapping="Wrap" Text="Pool:"/>
+            <ComboBox x:Name="isPoolCB" Grid.Column="1" HorizontalAlignment="Left" Margin="10.333,9.667,0,0" Grid.Row="8" VerticalAlignment="Top" Width="178" Height="33" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,8.667,9.667,10.333" Grid.Row="9" TextWrapping="Wrap" Text="Jacuzzi:"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,8.667,9.667,10.333" Grid.Row="10" TextWrapping="Wrap" Text="Garden:"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" Margin="10,8.667,9.667,10.333" Grid.Row="11" TextWrapping="Wrap" Text="Children's atgtractions:" FontSize="16"/>
+            <ComboBox x:Name="isJacuzziCB" Grid.Column="1" HorizontalAlignment="Left" Margin="10.333,8.667,0,0" Grid.Row="9" VerticalAlignment="Top" Width="178" Height="33" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <ComboBox x:Name="isgardenCB" Grid.Column="1" HorizontalAlignment="Left" Margin="10.333,8.667,0,0" Grid.Row="10" VerticalAlignment="Top" Width="178" Height="33" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <ComboBox x:Name="isaatractionsCB" Grid.Column="1" HorizontalAlignment="Left" Margin="10.333,8.667,0,0" Grid.Row="11" VerticalAlignment="Top" Width="178" Height="33" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <Image Grid.ColumnSpan="2" Grid.Column="2" HorizontalAlignment="Left" Height="368" Margin="116.667,52.333,0,0" Grid.Row="2" Grid.RowSpan="9" VerticalAlignment="Top" Width="196" Source="images/86f9be24fff434ebe6e88b5c69de63a3.jpg" Stretch="Fill">
+
+            </Image>
+            <TextBlock Style="{StaticResource TextBlockStyle}" x:Name="LastNAmeExeptions" Grid.Column="1" HorizontalAlignment="Left" Margin="9.333,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="13" FontSize="10" Foreground="Red" Grid.ColumnSpan="2" Width="271"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" x:Name="FirstNameExep" Grid.ColumnSpan="2" Grid.Column="2" HorizontalAlignment="Left" Margin="116.667,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="12" Width="269" Foreground="Red" FontSize="10"/>
+            <TextBlock Style="{StaticResource TextBlockStyle}" x:Name="emailExep" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Margin="0.333,33,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="386" Height="20" FontSize="10" Foreground="Red" Grid.RowSpan="2"/>
+            <ComboBox x:Name="adultsCB" Grid.Column="1" Margin="9.333,12.667,11.333,10" Grid.Row="6" Width="178" Height="30"/>
+            <ComboBox x:Name="kidsCB" Grid.Column="1" Margin="10.333,12.667,10.333,10" Grid.Row="7" Width="178" Height="30"/>
+            <DatePicker x:Name="DPentryDate" Grid.Column="1" HorizontalAlignment="Center" Margin="9.333,10.667,11.333,10" Grid.Row="2" VerticalAlignment="Center" Width="178" Height="32" SelectedDateChanged="DPentryDate_SelectedDateChanged" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+            <DatePicker x:Name="DPreleaseDate" Grid.Column="1" HorizontalAlignment="Center" Margin="10.333,10,11.333,10" Grid.Row="3" VerticalAlignment="Center" Width="177" Height="32" FontFamily="Yu Gothic UI Semibold" FontSize="18"/>
+
+        </Grid>
+        <Grid Margin="482,582,56.333,25.667">
+            <Button Content="Add" Width="255" Height="63" FontFamily="Yu Gothic UI Semibold" FontSize="20" Click="Button_Click" HorizontalAlignment="Center">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White"/>
+                        <GradientStop Color="#FF8ADFFC" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+
+    </Grid>
+</Window>

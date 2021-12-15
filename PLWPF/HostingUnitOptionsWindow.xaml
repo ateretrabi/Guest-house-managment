@@ -1,0 +1,31 @@
+﻿<Window x:Class="PLWPF.HostingUnitOptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="HostingUnitOptionsWindow" Height="450" Width="800" Background="#FFEBDCF8" Icon="images/בית.ico">
+    <Grid HorizontalAlignment="Left" Height="424" VerticalAlignment="Top" Width="790" Margin="0,0,0,-3.333" Background="#FFD3F7D0">
+        <Label Content="Hosting unit &#x0a;options" Margin="36,32,532,283" FontFamily="Yu Gothic UI Semibold" FontSize="36"/>
+        <Image Height="211" Margin="411,32,48,181" Width="331" Source="images/43143762.jpg" Stretch="Fill"/>
+        <Button x:Name="AddUnitButton" Content="Add hosting unit" HorizontalAlignment="Left" Margin="87,285,0,0" VerticalAlignment="Top" Width="219" Height="103" FontFamily="Yu Gothic UI Semibold" FontSize="22" Click="AddUnitButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF59A971" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LogInButton" Content="Log in" HorizontalAlignment="Left" Margin="465,285,0,0" VerticalAlignment="Top" Width="219" Height="103" FontFamily="Yu Gothic UI Semibold" FontSize="24" Click="LogInButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="#FF59A971" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+
+
+</Window>

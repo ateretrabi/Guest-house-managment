@@ -1,0 +1,10 @@
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\DAL.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\DAL.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\BE.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\DS.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\BE.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\bin\Debug\DS.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\obj\Debug\DAL.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DAL\obj\Debug\DAL.pdb

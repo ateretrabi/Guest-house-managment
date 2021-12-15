@@ -1,0 +1,4 @@
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\BE\obj\Debug\BE.pdb

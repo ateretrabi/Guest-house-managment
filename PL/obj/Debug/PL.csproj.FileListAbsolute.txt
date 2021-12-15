@@ -1,0 +1,15 @@
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\PL.exe.config
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\PL.exe
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\PL.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\BE.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\BL.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\DAL.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\DS.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\BE.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\BL.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\DAL.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\bin\Debug\DS.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\obj\Debug\PL.csprojAssemblyReference.cache
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\obj\Debug\PL.csproj.CopyComplete
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\obj\Debug\PL.exe
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\PL\obj\Debug\PL.pdb

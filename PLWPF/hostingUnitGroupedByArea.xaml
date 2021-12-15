@@ -1,0 +1,28 @@
+﻿<Window x:Class="PLWPF.hostingUnitGroupedByArea"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="hostingUnitGroupedByArea" Height="450" Width="800" Icon="images/בית.ico">
+    <Grid>
+        <ListView x:Name="LVgroup" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontFamily="Yu Gothic UI Semibold" Background="White">
+            <ListView.View>
+                <GridView>
+
+                    <GridViewColumn Header="Name" Width="100" DisplayMemberBinding="{Binding HostingUnitName}" />
+                    <GridViewColumn Header="Email" Width="110" DisplayMemberBinding="{Binding Owner.MailAddress}" />
+                    <GridViewColumn Header="Phone number" Width="100" DisplayMemberBinding="{Binding Owner.PhoneNumber}" />
+                    <GridViewColumn Header="collection clearance" Width="120" DisplayMemberBinding="{Binding Owner.CollectionClearance}" />
+                    <GridViewColumn Header="Type" Width="100" DisplayMemberBinding="{Binding Type}" />
+                    <GridViewColumn Header="Area" Width="100" DisplayMemberBinding="{Binding Area}" />
+                    <GridViewColumn Header="Pool" Width="40" DisplayMemberBinding="{Binding IsPool}" />
+                    <GridViewColumn Header="Jacuzzi" Width="50" DisplayMemberBinding="{Binding IsJacuzzi}" />
+                    <GridViewColumn Header="Garden" Width="50" DisplayMemberBinding="{Binding IsGarden}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

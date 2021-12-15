@@ -1,0 +1,69 @@
+﻿<Window x:Class="PLWPF.OpenOrdersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="OpenOrdersWindow" Height="450" Width="800" Icon="images/בית.ico">
+    <Window.Resources>
+        <DataTemplate x:Key="orderTemplate" DataType="local:Order">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                   
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0"
+                   Text=" Guest Name: " />
+                <TextBlock Grid.Column="1"
+                   Text="{Binding Path=GuestName}" />
+                <TextBlock Grid.Column="2"
+                   Text=" Entry Date: " />
+                <TextBlock Grid.Column="3"
+                   Text="{Binding Path=EntryDate}" />
+                <TextBlock Grid.Column="4"
+                  Text=" Release Date:" />
+                <TextBlock Grid.Column="5"
+                   Text="{Binding Path=ReleaseDate}" />
+                <TextBlock Grid.Column="6"
+                  Text=" NumberOf Guests:" />
+                <TextBlock Grid.Column="7"
+                   Text="{Binding Path=NumOfGuests}" />
+               
+
+            </Grid>
+
+        </DataTemplate>
+    </Window.Resources>
+    <Grid Background="#FFE9E4C9">
+        <ComboBox x:Name="ordersCB" ItemTemplate="{StaticResource orderTemplate}" Margin="91,61,85.333,306.667" Height="53" FontFamily="Yu Gothic UI Semibold" FontSize="16" SelectionChanged="ordersCB_SelectionChanged"/>
+        <Button x:Name="inviteButton" Content="Send an invitation" HorizontalAlignment="Left" Margin="91,294,0,0" VerticalAlignment="Top" Width="264" Height="64" FontFamily="Yu Gothic UI Semibold" FontSize="20" Click="inviteButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFD0AE27" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="closeDealButton" Content="Close a deal" HorizontalAlignment="Left" Margin="444,294,0,0" VerticalAlignment="Top" Width="264" Height="64" FontFamily="Yu Gothic UI Semibold" FontSize="20" Click="closeDealButton_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FFD0AE27" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

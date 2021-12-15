@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <order>
+    <HostingUnitKey>20000000</HostingUnitKey>
+    <GuestRequestKey>10000002</GuestRequestKey>
+    <OrderKey>30000000</OrderKey>
+    <GuestName>rivka goro</GuestName>
+    <NumOfGuests>1</NumOfGuests>
+    <EntryDate>2020-01-26T00:00:00+02:00</EntryDate>
+    <ReleaseDate>2020-01-27T00:00:00+02:00</ReleaseDate>
+    <CreateDate>2020-01-26T00:00:00+02:00</CreateDate>
+    <OrderDate>2000-01-01T00:00:00</OrderDate>
+    <Status>SentAnEmail</Status>
+    <Commission>0</Commission>
+  </order>
+  <order>
+    <HostingUnitKey>20000001</HostingUnitKey>
+    <GuestRequestKey>10000003</GuestRequestKey>
+    <OrderKey>30000001</OrderKey>
+    <GuestName>ateret rabi</GuestName>
+    <NumOfGuests>1</NumOfGuests>
+    <EntryDate>2020-02-04T00:00:00</EntryDate>
+    <ReleaseDate>2020-02-06T00:00:00</ReleaseDate>
+    <CreateDate>2020-01-30T00:00:00+02:00</CreateDate>
+    <OrderDate>2000-01-01T00:00:00</OrderDate>
+    <Status>SentAnEmail</Status>
+    <Commission>0</Commission>
+  </order>
+  <order>
+    <HostingUnitKey>20000001</HostingUnitKey>
+    <GuestRequestKey>10000004</GuestRequestKey>
+    <OrderKey>30000002</OrderKey>
+    <GuestName>david dan</GuestName>
+    <NumOfGuests>1</NumOfGuests>
+    <EntryDate>2020-04-22T00:00:00</EntryDate>
+    <ReleaseDate>2020-04-24T00:00:00</ReleaseDate>
+    <CreateDate>2020-01-30T00:00:00+02:00</CreateDate>
+    <OrderDate>2000-01-01T00:00:00</OrderDate>
+    <Status>NotYetAddressed</Status>
+    <Commission>0</Commission>
+  </order>
+  <order>
+    <HostingUnitKey>20000000</HostingUnitKey>
+    <GuestRequestKey>10000005</GuestRequestKey>
+    <OrderKey>30000003</OrderKey>
+    <GuestName>dana ziv</GuestName>
+    <NumOfGuests>1</NumOfGuests>
+    <EntryDate>2020-04-15T00:00:00</EntryDate>
+    <ReleaseDate>2020-04-20T00:00:00</ReleaseDate>
+    <CreateDate>2020-01-30T00:00:00+02:00</CreateDate>
+    <OrderDate>2000-01-01T00:00:00</OrderDate>
+    <Status>NotYetAddressed</Status>
+    <Commission>0</Commission>
+  </order>
+</Orders>

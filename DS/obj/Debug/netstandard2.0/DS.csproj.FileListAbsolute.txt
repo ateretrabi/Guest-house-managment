@@ -1,0 +1,11 @@
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\bin\Debug\netstandard2.0\DS.deps.json
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\bin\Debug\netstandard2.0\DS.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\bin\Debug\netstandard2.0\DS.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\bin\Debug\netstandard2.0\BE.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\bin\Debug\netstandard2.0\BE.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.csprojAssemblyReference.cache
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.AssemblyInfoInputs.cache
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.AssemblyInfo.cs
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.csproj.CopyComplete
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.dll
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\DS\obj\Debug\netstandard2.0\DS.pdb

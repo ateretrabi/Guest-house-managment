@@ -1,0 +1,6 @@
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\bin\Debug\Project01_7694_5304_dotNet5780.exe.config
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\bin\Debug\Project01_7694_5304_dotNet5780.exe
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\bin\Debug\Project01_7694_5304_dotNet5780.pdb
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\obj\Debug\Project01_7694_5304_dotNet5780.csprojAssemblyReference.cache
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\obj\Debug\Project01_7694_5304_dotNet5780.exe
+C:\Users\atere\Desktop\לימודים\מיני פרויקט\Project01_7694_5304_dotNet5780\Project01_7694_5304_dotNet5780\obj\Debug\Project01_7694_5304_dotNet5780.pdb

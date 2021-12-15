@@ -1,0 +1,61 @@
+﻿<Window x:Class="PLWPF.OptionalOrdersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="OptionalOrdersWindow" Height="450" Width="800" Icon="images/בית.ico">
+    <Window.Resources>
+        <DataTemplate x:Key="GuestTemplate" DataType="local:GuestRequest">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0"
+                   Text=" Guest Name: " />
+                <TextBlock Grid.Column="1"
+                   Text="{Binding Path=MyfullNameProperty}" />
+                <TextBlock Grid.Column="2"
+                   Text=" Entry Date: " />
+                <TextBlock Grid.Column="3"
+                   Text="{Binding Path=EntryDate}" />
+                <TextBlock Grid.Column="4"
+                  Text=" Release Date:" />
+                <TextBlock Grid.Column="5"
+                   Text="{Binding Path=ReleaseDate}" />
+                <TextBlock Grid.Column="6"
+                  Text=" NumberOf Guests:" />
+                <TextBlock Grid.Column="7"
+                   Text="{Binding Path=numOfGuests}" />
+                
+
+            </Grid>
+
+        </DataTemplate>
+    </Window.Resources>
+    <Grid Background="#FFE6F6C7">
+        <ComboBox x:Name="optionalOrdersCB" ItemTemplate="{StaticResource GuestTemplate}" Margin="69,53,70.333,308.667" Width="654" Height="59"/>
+        <Button Content="Create order" Margin="497,136,70.333,208.667" Width="226" Height="76" FontFamily="Yu Gothic UI Semibold" FontSize="20" Click="Button_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF96A33C" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="228" Margin="69,156,0,0" VerticalAlignment="Top" Width="388" Stretch="Fill" Source="images/נ-900x460.jpg"/>
+    </Grid>
+</Window>

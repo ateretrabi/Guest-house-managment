@@ -1,0 +1,56 @@
+﻿<Window x:Class="PLWPF.MoreOptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="MoreOptionsWindow" Height="450" Width="800" Icon="images/בית.ico">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin"
+                    Value="10,310,609.333,26.667"/>
+            <Setter Property="FontSize"
+              Value="16" />
+            <Setter Property="FontFamily"
+              Value="Yu Gothic UI Semibold" />
+            <Setter Property="FontWeight"
+              Value="Regular" />
+            <Setter Property="Foreground"
+              Value="Black" />
+            <Setter Property="BorderBrush"
+              Value="White" />
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="#FF79431B" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Width"
+                Value="180"/>
+            <Setter Property="Height"
+                    Value="120"/>
+
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Image Height="260" Margin="97,10,95.333,150.667" Width="601" Source="images/636506675647013750_800x392.jpg" Stretch="Fill"/>
+        <Grid Margin="10,275,0.333,-0.333" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="groupGuestsByArea" Content="Get guest requests &#x0a;grouped by area" Margin="6,10,10,16" Click="groupGuestsByArea_Click"/>
+            <Button x:Name="getGuestsbyAmountPeople" Content="Get guest requests &#x0a;grouped by number &#x0a;of vacationers" Margin="6,10,10,16" Grid.Column="1" Click="getGuestsbyAmountPeople_Click"/>
+            <Button x:Name="getHostsByNumberOfUnits" Content="Get hosts grouped by &#x0a;number of hosting &#x0a;units they own" Margin="5,10,10.333,16" Grid.Column="2" Click="getHostsByNumberOfUnits_Click"/>
+            <Button x:Name="getUnitsByArea" Content="Get hosting units &#x0a;grouped by area" Margin="5.667,10,10.333,16" Grid.Column="3" Click="getUnitsByArea_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
